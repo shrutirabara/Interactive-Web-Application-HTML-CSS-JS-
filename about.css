@@ -1,0 +1,14 @@
+
+.bx-wrapper {
+    margin-bottom: 20px;
+    margin: 0 auto;
+    width: 700px;
+    heightStyle: "content";
+}
+#id_pager {
+    text-align: center;
+    font-size: 90%;
+    color: green;
+    display: center;
+    heightStyle: "content"
+}

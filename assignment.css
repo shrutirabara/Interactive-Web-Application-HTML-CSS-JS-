@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #998900;
+
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 70px ;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #AF504C;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    text-align: center;
+    color: #AF504C;
+    font-weight: bold;
+
+}
+input[type='submit'] {
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+}
+
+/* all inputs */
+textarea , input[type='text'],select{
+    width: 200px;
+    font-size:18px;
+}
+
+/* labels */
+label{
+    font-size:18px;
+    font-weight: bold;
+    color: white;
+}
+
+/* form */
+form{
+    text-align: center;
+    margin-top: 0 auto;
+    border:2px solid black;
+    padding: 50px;
+    width:500px;
+    height: 550px;
+    background-color: #AF504C;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: black;
+    font-family: Alegreya Sans SC;
+    font-size: 25px;
+}
+ul{
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    padding-bottom: .30em;
+    color: black;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 120%;
+    padding: .5em 0;
+}
+li {
+    padding: 0 0.25em;
+    display: inline;
+}
+#caption, #gallery {
+    text-align: center;
+}
+#cycle-slideshow {
+    left: 50%;
+    right: 50%;
+}

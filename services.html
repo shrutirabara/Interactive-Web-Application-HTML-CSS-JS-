@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hudson Laundromat</title>
+    <meta name="description" content="Assingment 2">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assignment.css">
+    <link rel="stylesheet" type="text/css" href="services.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle2.js"></script>
+    <script src="services.js"></script>
+</head>
+<body>
+<header class="name">
+    <img src="homepagepic.jpg" alt="picture" width="1435" height="450" ">
+</header>
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a class="active" href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+</div>
+<h1>Our Services</h1>
+<div class="container" id="demo2">
+    <div class="center">
+    <h1>Laundromat Self Service</h1>
+    <button position="center" type="button" onclick="loadDoc2()">click here learn more! </button>
+    </div>
+</div>
+
+<br><br>
+<br><br>
+<h3>Here is a tutorial on how to use our washers and dryers! </h3>
+
+<div class="cycle-slideshow"
+     data-cycle-fx="scrollHorz"
+     data-cycle-speed="200"
+     data-cycle-timeout="2000"
+     data-cycle-center-horz="true"
+     data-cycle-center-vert="true">
+
+    <img src="pic1.png">
+    <img src="pic2.png">
+    <img src="pic3.png">
+    <img src="pic4.png">
+    <img src="pic5.png">
+    <img src="pic6.png">
+    <img src="pic7.png">
+    <img src="pic8.png">
+    <img src="pic9.png">
+</div>
+
+<h2>Wash/Dry/Fold Service</h2>
+    <h3>We offer a great wash, dry and fold services.
+        First, you drop off your laundry to an attendant in the office and recieve a ticket. Then, come back the next day to pick up your neatly cleaned and folded laundry!
+        For better convenience, you can also schedule a pickup service (just down below) for an amazing wash, dry and fold service. </h3>
+    <h1>Fill out the form below to drop off your laundry! </h1>
+<form action="#">
+
+    <label for="txtName">Wash/Dry/Fold appointment</label><br>
+    <br><br>
+    <label for="txtName">Name</label><br>
+    <input type="text" id="txtName" required placeholder=""/><br>
+
+    <label for="txtphonenum">Phone Number</label><br>
+    <input type="text" id="phonenum" required placeholder=""/><br>
+
+    <label for="txtemail">Email Address</label><br>
+    <input type="text" id="email" required placeholder=""/><br>
+
+    <br><br>
+    <label for="txtday">Which day works best for you</label><br>
+    <br>
+    <select id="day" required placeholder="">
+        <option value="">Choose a Day </option>
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+        <option value="Sunday">Sunday</option>
+    </select>
+    <br><br>
+    <label for="txtdate">Enter a date</label><br>
+    <input type="text" id="date" required placeholder="Enter MM/DD/YYYY"/><br>
+    <label for="txttime">Enter a time</label><br>
+    <input type="text" id="time" required placeholder="Enter 00:00"/><br>
+
+    <br><br>
+    <input type="checkbox" id="checkNewsletter"/>Agree to the terms and condition of our services <br><br>
+
+    <button type="button" onclick="loadDoc()">Submit</button>
+    <p id="demo"></p>
+
+
+
+
+
+</form>
+
+
+</div>
+</body>
+</html>
